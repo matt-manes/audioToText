@@ -1,13 +1,14 @@
-import speech_recognition
+from datetime import datetime
+import os
+from pathlib import Path
 from pydub import AudioSegment
 import requests
+import speech_recognition
 from whosYourAgent import getAgent
-from datetime import datetime
-from pathlib import Path
-import os
+
 root = Path(__file__).parent
 
-""" Extract text from an mp3 url. """
+""" Extract text from an mp3 file located at a given url. """
 
 def downloadMp3File(url:str)->Path:
     """ Downloads an mp3 file to
