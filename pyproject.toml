@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 hatch.metadata.allow-direct-references = true
 
 [project]
-name = "mp3ToText"
+name = "audioToText"
 authors = [{name='Matt Manes'}]
 description = ""
 version = "0.0.1"
