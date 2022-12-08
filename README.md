@@ -1,5 +1,5 @@
 # audioToText
-Install using "python -m pip install git+https://github.com/matt-manes/audioToText".<br>
+Install using <pre>python -m pip install git+https://github.com/matt-manes/audioToText</pre><br>
 Git must be installed and in your PATH.<br>
 audioToText is a module for extracting text from mp3 and wav audio recordings that are hosted locally or on the web.<br>
 Note: you still need to be connected to the internet event if you're only processing local files.<br>
