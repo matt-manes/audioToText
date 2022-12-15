@@ -14,4 +14,4 @@ requires-python = ">=3.7"
 dependencies = ["SpeechRecognition",
 				"pydub",
 				"requests",
-				"whosYourAgent @ git+https://github.com/matt-manes/whosyouragent.git"]
+				"whosYourAgent @ git+https://github.com/matt-manes/whosYourAgent"]

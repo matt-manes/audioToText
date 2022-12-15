@@ -1,3 +1,5 @@
-from .audioToText import getTextFromUrl, getTextFromMp3, getTextFromWav, cleanUp
+from .audioToText import (cleanUp, getTextFromMp3, getTextFromUrl,
+                          getTextFromWav)
+
 """ FFMPEG needs to be installed and in your PATH for this to work. """
 cleanUp()
